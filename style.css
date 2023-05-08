@@ -1,0 +1,347 @@
+*{
+    text-align: justify;
+    font-style: italic;
+   /* color: chartreuse;*/
+}
+p{
+    color: green;
+    text-align: center;
+    border: 3px solid dodgerblue;
+}
+#paraid{
+    color: red;
+    text-align: center;
+}
+.paraclass{
+    color: blue;
+    text-align: center;
+}
+h3.txt{
+    color: crimson;
+    text-align: center;
+}
+p.txt{
+    color: blueviolet;
+    text-align: center;
+}
+/*
+p.cener{
+    background-color: rgb(31, 17, 224);
+    text-align: center;
+}*/
+p.exter{
+    color: cyan;
+    text-align: center;
+}
+h1{
+    border: 2px solid crimson;
+}
+#bg{
+    background-color: darkseagreen;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/386009/pexels-photo-386009.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-size: contain;
+}
+#borderu{
+    border-style: dashed;
+    border-width: thick;
+    border-width: thin;
+    border-width: medium;
+    border-width: initial;
+    /* border-width: inherit; */
+    border-style: dotted;
+    border-style: double;
+    border-style: groove;
+    border-style: hidden;
+    border-style: inherit;
+    border-style: initial;
+    border-style: inset;
+    border-style: none;
+    border-style: outset;
+    border-style: ridge;
+    border-style: solid;
+    border-top-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-left-style: groove;
+    /* border-style: unset; */
+    border-color: red;
+    border-color: red blue green yellow;
+}
+.boxmodel{
+    padding: 15px;
+    border: 20px solid crimson;
+    margin: 40px;
+    text-align: center;
+    outline-style: dashed;
+    outline-color: blue;
+    outline-width: thick;
+    outline-offset: 15px;
+    outline: invert;
+}
+#textexample{
+    text-align: center;
+    text-align: justify;
+    text-align: right;
+    text-align: start;
+    unicode-bidi: bidi-override;
+    vertical-align: baseline;
+    vertical-align: text-bottom;
+    text-decoration-line: dotted;
+    text-decoration-color: cyan;
+    color: blue;
+    text-shadow: 2px 2px 5px crimson;
+}
+.adjust{
+    height: 100px;
+    width: 100px;
+    color: crimson;
+}
+svg{
+    color: blue;
+}
+.btn{
+    text-decoration: none;
+    color: crimson;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 15px 25px;
+    display: inline-block;
+}
+.btn:hover{
+    text-decoration:double;
+    color: rgb(239, 243, 239);
+    background-color: crimson;
+}
+li{
+    /* display: inline; */
+    display: block;
+    display: contents;
+    /* display: flex; */
+    display: flow-root;
+    display: grid;
+    display: inline-block;
+    /* display: inline-flex; */
+    /* display: inline-flexbox; */
+    display: inline-table;
+    display: initial;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+a.hide{
+    visibility: hidden;
+}
+div.postion{
+    border: 2px solid green;
+    padding: 25px;
+    margin: 10px;
+    position: fixed;
+    background-color: aqua;
+}
+h3{
+    text-align: center;
+    background-color: brown;
+}
+img{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
+h1{
+    overflow: auto;
+    width: 500px;
+    height: 100px;
+}
+div p{
+    color: crimson;
+    background-color: cornflowerblue;
+}
+div > p{
+    background-color: black;
+    color: whitesmoke;
+}
+div + p{
+    background-color: rgb(15, 14, 12);
+    color: brown;
+}
+div ~ p{
+    color: blue;
+    background-color: whitesmoke;
+    border: 1px solid;
+    border-radius: 16px;
+}
+a#exam:link{
+    color: red;
+}
+a#exam:visited{
+    color: green;
+}
+a#exam:hover{
+    color: blue;
+}
+a#exam:active{
+    background-color: aqua;
+}
+div h1{
+    text-align: center;
+    border-radius: 16px;
+}
+div:hover{
+    background-color: crimson;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 19px;
+}
+h4::first-line{
+    font-style: italic;
+    color: turquoise;
+    font-weight: bold;
+}
+h4::first-letter{
+    color: crimson;
+    font-size: xx-large;
+}
+ul::marker{
+    color: crimson;
+    font-size: large;
+}
+ul{
+    list-style-type: none;
+}
+span{
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 16px;
+    background-color: green;
+    color: whitesmoke;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+form{
+    display: inline-flexbox;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #0a62c6;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+input[type=text]:hover{
+    border: 2px solid crimson;
+}
+  input[type=submit] {
+    width: 100%;
+    background-color: #1a49cd;
+    color: rgb(243, 244, 245);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  input[type=submit]:hover {
+    background-color: crimson;
+    color: whitesmoke;
+  }
+label{
+    color: blue;
+}
+label:hover{
+    color: crimson;
+}
+#content{
+    background-color: rgb(73, 94, 73) !important;
+    color: red !important;
+}
+div.magic{
+    background-image: url(https://img.freepik.com/free-psd/pink-fresh-style-text-effect_125540-336.jpg?w=900&t=st=1678340766~exp=1678341366~hmac=348335d0870fc55b36b0993131b1775ae122e8982a696bea8a168cd5da4f8b22);
+    /* background-position: right bottom,left top; */
+    /* background-repeat: no-repeat,repeat; */
+    padding: 15px;
+}
+#magic{
+    color: crimson;
+    box-shadow: 0px 0px 99px currentColor;
+    border: 5px solid currentColor;
+    padding: 15px;
+    margin: 50px;
+}
+#grade{
+    height: 300px;
+    background-image: conic-gradient(red,yellow,green,blue,black);
+    border-radius: 50%;
+}
+.mask1 {
+    -webkit-mask-image: url(w3logo.png);
+    mask-image: url(w3logo.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;    
+  }
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
